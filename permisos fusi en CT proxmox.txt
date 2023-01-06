@@ -1,0 +1,12 @@
+
+estos comandos hay que pomerlos en el poxmox para dar permisor fusi en el container donde este el plex-rclone instalados 
+
+nano /etc/pve/lxc/101.conf
+
+lxc.autodev: 1
+lxc.hook.autodev: sh -c "mknod -m 0666 ${LXC_ROOTFS_MOUNT}/dev/fuse c 10 229"
+lxc.cgroup.devices.allow
+
+
+
+
