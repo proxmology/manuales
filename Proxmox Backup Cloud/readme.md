@@ -47,4 +47,4 @@ apt-get update;
 apt-get install rclone;
 ```
 
-Seguimos los pasos. Podemos hacer uso de la [guía](https://rclone.org/docs/) de rclone de nuestra nube
+Seguimos los pasos. Podemos hacer uso de la [guía](https://rclone.org/docs/) de rclone de nuestra nube.
