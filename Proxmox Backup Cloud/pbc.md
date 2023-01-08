@@ -23,7 +23,7 @@ A continuación indicamos el nombre gdrive, el directorio que hemos creado y en 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen2.png)
 
 
-Le damos a Agregar y como vemos nos añade el nuevo directorio que hemos creado a nuestro datastore
+Le damos a Agregar y como vemos nos añade el nuevo directorio a nuestro datastore
 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen3.png)
 
