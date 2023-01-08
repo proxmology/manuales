@@ -81,7 +81,7 @@ A continuación se te preguntará, en primer lugar, que tipo de editor quieres u
 Una vez dentro del editor solo falta añadir esta línea tal y como se muestra en la imagen:
 
 ```
-@reboot sleep 1 && rclone mount gdrive:/PBC /mnt/gdrive -—allow-non-empty
+@reboot rclone mount gdrive:/PBC /mnt/gdrive -—allow-non-empty
 ```
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen4.png)
 
