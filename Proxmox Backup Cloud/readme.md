@@ -14,4 +14,4 @@ Ahora vamos a añadir ese directorio a nuestro datastore.
 
 Lo haremos asi:
 
-!(https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen1.png)
+![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen1.png)
