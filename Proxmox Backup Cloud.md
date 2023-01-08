@@ -10,6 +10,6 @@ Nos conectarnos por nuestro de cliente ssh preferido o desde Shell del propio pr
 mkdir /mnt/gdrive
 ```
 
-Ahora vamos a añadir ese directorio a nuestro datastore 
+Ahora vamos a añadir ese directorio a nuestro datastore.
 
 Lo haremos asi:
