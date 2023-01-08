@@ -24,25 +24,4 @@ A continuación indicamos el nombre gdrive, el directorio que hemos creado y en 
 
 
 /*
-A modo de práctica...
-Ponle comillas dobles al texto que está en la fecha y también a la firma.
-Haz tus saltos de líneas dónde estimes conveniente(usando diagonal invertida + n).
-*/
-string fecha= "Lunes 8 de Junio del 2020";
-string saludo= "Querida Amber";
-string cuerpo= "Te cuento que hoy me decidí a escribirte, y estoy bien, espero tú también lo estés. Se te extraña.";
-string despedida="Desde aquí te envío muchos abrazos,";
-string firma= "Yocha";
 
-default
-{
-    state_entry()
-    {
-        llSay(0, "Toca el objeto para ver esta pequeña carta.");
-    }
-    touch_start(integer total_number)
-    {
-        llSay(0, fecha+saludo+cuerpo+despedida+firma);
-    }
-}
-//Pueden escribirme o enviarme sus ejercicios al nombre de usuario: y0cha
