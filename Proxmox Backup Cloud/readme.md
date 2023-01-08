@@ -84,3 +84,7 @@ Una vez dentro del editor solo falta añadir esta línea tal y como se muestra e
 @reboot sleep 1 && rclone mount gdrive:/PBC /mnt/gdrive
 ```
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen4.png)
+
+Para terminar pulsamos la combinación de teclas control + x
+Indicamos “Y” + intro y con esto ya tenemos montado rclone en nuestro proxmox con inicio automático y vinculado a nuestra nube.
+
