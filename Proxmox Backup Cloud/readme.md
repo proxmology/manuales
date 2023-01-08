@@ -16,6 +16,7 @@ Lo haremos asi:
 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen1.png)
 
-Indicamos el nombre gdrive, el directorio que hemos creado y en contenido elegimos Archivo VZDump.
+A continuación indicamos el nombre gdrive, el directorio que hemos creado y en contenido elegimos Archivo VZDump.
 
+![This is an image] (https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen1.png)
 
