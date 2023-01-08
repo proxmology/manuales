@@ -59,3 +59,10 @@ y) Yes
 n) No
 y/n> y
 ```
+Una vez tengamos configurado rclone solo falta montarlo. Podemos crear en nuestra nube personal una carpeta que llame PBC.
+
+Para montar rclone en proxmox y vincularlo con esa carpeta, lo haremo asi:
+
+```
+rclone mount gdrive:/PBC /mnt/gdrive --allow-non-empty 
+```
