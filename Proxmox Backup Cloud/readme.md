@@ -100,8 +100,14 @@ Comprobaremos como al terminar la copia de seguridad esta estará justamente don
 ### A tener encuenta.
 
 las copias de segurad que hace proxmox a diferencia de proxmox backup server, no son incremetales. Por lo que en función del espacio que tengamos en nuestra nube, la cantidad de copias que hagamos y el tamaño de las mismas, podremos quedarnos sin espacio pronto.
-Para evitar eso podemos añadir un sistema de purga de copias en función de los parámetro que quermos
+Para evitar eso podemos añadir un sistema de purga de copias en función de los parámetro que quermos.
+Por ejemplo que nos guarde solo las 5 ultimas copias como se muestra en la imagen.
 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen7.png)
 
 
+
+
+
+
+Un tutorial de Proxmology.
