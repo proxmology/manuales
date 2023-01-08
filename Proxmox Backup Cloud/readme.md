@@ -66,3 +66,5 @@ Para montar rclone en proxmox y vincularlo con esa carpeta, lo haremo asi:
 ```
 rclone mount gdrive:/PBC /mnt/gdrive --allow-non-empty 
 ```
+- donde gdrive:/PBC es la carpeta de nuestra nube.
+- Y /mnt/gdrive es el directiro de proxmox que añadimos a nuestro datastore.
