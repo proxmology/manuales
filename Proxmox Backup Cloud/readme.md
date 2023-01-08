@@ -72,7 +72,7 @@ rclone mount gdrive:/PBC /mnt/gdrive
 ##
 ### Atomatizar el montaje de rclone
 
-Si queremos que rclone se inicie en cada arranque de proxmox, podemos usarlo con un crontab para hacerlo 
+Si queremos que rclone se inicie en cada arranque de proxmox, podemos usarlo con un crontab para hacerlo, lo hacemos asi:
 
 ```
 crontab -e
