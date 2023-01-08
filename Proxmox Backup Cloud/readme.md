@@ -89,9 +89,12 @@ Para terminar pulsamos la combinación de teclas control + X
 Indicamos “Y” + intro y con esto ya tenemos montado rclone en nuestro proxmox con inicio automático y vinculado a nuestra nube.
 
 Ahora solo nos falta comprobar como si hacemos un backup y seleccionamos como disco de destino nuestro gdrive.
+
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen5.png)
 
 Comprobaremos como al terminar la copia de seguridad esta estará justamente donde queríamos, en nuestra nube.
+
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen6.png)
+
 
 
