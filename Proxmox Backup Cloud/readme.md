@@ -69,3 +69,9 @@ rclone mount gdrive:/PBC /mnt/gdrive
 - gdrive:/PBC es la carpeta de nuestra nube.
 - /mnt/gdrive es el directiro de proxmox que añadimos a nuestro datastore.
 
+Si queremos que rclone se inicie en cada arranque de proxmox, podemos usarlo con un crontab para hacerlo 
+
+```
+crontab -e
+```
+A continuación se te preguntará, en primer lugar, que tipo de editor quieres utilizar para editar el fichero. Yo he indicado la opción 1, que es la que corresponde a Nano, ya que es el editor por consola que conozco mejor y que me parece más simple e intuitivo de utilizar. Lo siguiente que verás es la interfaz del editor Nano por pantalla, y ya solo queda empezar a editar el fichero.
