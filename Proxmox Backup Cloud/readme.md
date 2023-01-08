@@ -30,4 +30,14 @@ Le damos a Agregar y como vemos nos añade el nuevo directorio que hemos creado 
 ##
 ### Usando rclone para el montaje en nuestra nube:
 
-Aunque el directorio llamado gdrive este en nuestro datastore evidente mente aun no esta montado en la nube para ello vamos a usar [rclone](https://rclone.org)
+Aunque el directorio llamado gdrive este en nuestro datastore, evidentemente aun no esta montado en la nube, para ello vamos a usar [rclone](https://rclone.org).
+
+Para instalar rclone:
+
+```
+apt-get update;
+```
+
+```
+apt-get install rclone;
+
