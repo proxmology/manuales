@@ -13,3 +13,4 @@ mkdir /mnt/gdrive
 Ahora vamos a añadir ese directorio a nuestro datastore.
 
 Lo haremos asi:
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
