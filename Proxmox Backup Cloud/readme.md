@@ -69,6 +69,9 @@ rclone mount gdrive:/PBC /mnt/gdrive
 - gdrive:/PBC es la carpeta de nuestra nube.
 - /mnt/gdrive es el directiro de proxmox que añadimos a nuestro datastore.
 
+##
+### Atomatizar el montaje de rclone
+
 Si queremos que rclone se inicie en cada arranque de proxmox, podemos usarlo con un crontab para hacerlo 
 
 ```
