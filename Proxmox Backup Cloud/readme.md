@@ -27,4 +27,4 @@ Le damos a Agregar y como vemos nos añade el nuevo directorio que hemos creado 
 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen3.png)
 
-## Usando rclone para el montaje en nuestra nube:
+### Usando rclone para el montaje en nuestra nube:
