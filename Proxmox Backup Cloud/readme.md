@@ -32,7 +32,7 @@ Le damos a Agregar y como vemos nos añade el nuevo directorio que hemos creado 
 
 Aunque el directorio llamado gdrive este en nuestro datastore, evidentemente aun no esta montado en la nube, para ello vamos a usar [rclone](https://rclone.org).
 
-Un detalle a tener en cuenta es que rclone a cambiado la manera en que autoriza el servicio que vincula a nuestra nube. Para ello tenemos que conectarnos por nuestro cliente ssh y lanzar el siguiente código cambiando el usuario por el de proxmox que posiblemente sea root, si no lo hemos cambiado y la dirección ip que corresponda de proxmox:
+Un detalle a tener en cuenta es que rclone a cambiado la manera en que autoriza el [servicio que vincula a nuestra nube](https://rclone.org/remote_setup/). Para ello tenemos que conectarnos por nuestro cliente ssh y lanzar el siguiente código cambiando el usuario por el de proxmox que posiblemente sea root, si no lo hemos cambiado y la dirección ip que corresponda de proxmox:
 
 ```
 ssh -L localhost:53682:localhost:53682 root@ip_proxmox
