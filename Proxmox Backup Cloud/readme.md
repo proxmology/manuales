@@ -23,5 +23,5 @@ A continuación indicamos el nombre gdrive, el directorio que hemos creado y en 
 ![This is an image](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/imagen2.png)
 
 
-/*
+
 
