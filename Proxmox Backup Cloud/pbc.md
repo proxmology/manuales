@@ -77,7 +77,7 @@ Si queremos que rclone se inicie en cada arranque de proxmox, podemos usarlo con
 ```
 crontab -e
 ```
-A continuación se te preguntará, en primer lugar, que tipo de editor quieres utilizar para editar el fichero. Yo indico la opción 1, que es la que corresponde a Nano, ya que es el editor por consola que me parece más simple e intuitivo de utilizar. 
+A continuación nos preguntará, en primer lugar, que tipo de editor queremos utilizar para editar el fichero. Yo indico la opción 1, que es la que corresponde a Nano, ya que es el editor por consola que me parece más simple e intuitivo de utilizar. 
 Una vez dentro del editor solo falta añadir esta línea tal y como se muestra en la imagen:
 
 ```
