@@ -64,7 +64,7 @@ Una vez tengamos configurado rclone sólo falta montarlo. Podemos crear en nuest
 Para montar rclone en proxmox y vincularlo con esa carpeta, lo harémos asi:
 
 ```
-rclone mount gdrive:/PBC /mnt/gdrive --allow-non-empty
+rclone mount gdrive:/PBC /mnt/gdrive --allow-other --allow-non-empty
 ```
 - gdrive:/PBC es la carpeta de nuestra nube.
 - /mnt/gdrive es el directiro de proxmox que añadimos a nuestro datastore.
