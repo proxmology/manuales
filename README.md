@@ -2,5 +2,5 @@
 
 Indice de manuales:
 
-#
+
 - prueb
