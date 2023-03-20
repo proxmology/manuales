@@ -1,0 +1,22 @@
+AGREGAR USB COMO ALMACENAMIENTO EN DSM CON PROXMOX
+
+abrimos consolas y ponemos 
+
+lsblk    (para localizar la unidad)
+
+ls -l /dev/disk/by-id      (para saber que id tiene)
+
+
+El id de usb sera algo asi:   usb-General_USB_Flash_Disk_0000000000001390-0:0
+El id de hdd sera algo asi:   ata-WDC_WD30EFRX-68EUZN0_WD-WCC4N0KHV6AX (de mi disco duro).
+
+
+
+ahora conectados a terminal de proxmox 
+nano /etc/pve/qemu-server/XXX.conf 
+ y ahi añadiremos la siguiente linea: 
+
+sataX: /dev/disk/by-id/usb-General_USB_Flash_Disk_0000000000001390-0:0  (en caso de usb)
+sataX: /dev/disk/by-id/ata-WDC_WD30EFRX-68EUZN0_WD-WCC4N0KHV6AX (en caso de hdd)
+
+****las X son los numeros que correspondan*****
