@@ -1,0 +1,41 @@
+HABILITAR USB EN UN CONTENEDOR DE PROXMOX
+
+Para que nos detecte USB en una maquina ct, debemos
+
+Nos conectamos por ssh al proxmox
+buscmos la maquina que queremos a adir el usb con el comando
+
+pct list
+
+nos pondra un numero por ejemplo la que queremos modificar es la 100 despues ponemos este comando para pararla:
+
+pct stop 100
+
+modificamos con el editor nano la configuracion de la maquina
+
+nano /etc/pve/lxc/100.conf
+
+y ponemos estas 2 lineas al final del todo
+
+lxc.cgroup.devices.allow = c 189:* rwm
+lxc.mount.entry = /dev/bus/usb dev/bus/usb none bind,optional,create=dir
+
+Despues iniciamos la maquina con:
+
+pct start 100
+
+
+
+montar unidad en /dev
+
+localizamos unidad con lsblk y la montamos (por ejemplo /dev/sdd)
+
+mount /dev/sdd /media/usb
+
+nano /etc/pve/lxc/100.conf
+
+lxc.mount.entry = /media/usb dev/usb none bind,optional,create=dir
+
+y con esto nos montara unidad en /dev/usb
+
+
