@@ -123,3 +123,7 @@ systemctl status nvidia-persistenced
 ![This is an image](nvidia2.png)
 
 ## Añadir la grafica NVIDIA a un LXC.
+
+```
+ls -l /dev/nv*
+```
