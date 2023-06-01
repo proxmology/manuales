@@ -112,7 +112,11 @@ git clone https://github.com/NVIDIA/nvidia-persistenced.git
 cd nvidia-persistenced/init
 ./install.sh
 ```
-Comprobamos que el servicio este ejecutándose:
+Comprobamos que el controlador este instalado y el servicio este ejecutándose:
+```
+nvidia-smi
+```
+![This is an image](imagenes/nvidia1.png)
 ```
 systemctl status nvidia-persistenced
 ```
