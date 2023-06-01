@@ -116,7 +116,7 @@ Comprobamos que el controlador este instalado y el servicio este ejecutándose:
 ```
 nvidia-smi
 ```
-![This is an image](imagenes/nvidia1.png)
+![This is an image](/nvidia1.png)
 ```
 systemctl status nvidia-persistenced
 ```
