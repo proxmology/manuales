@@ -18,16 +18,12 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 ```
 
 
-#### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
+#### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.  
+
 
 
 1 - Primera mente necesitamos saber cual es el ultimo controlador disponible:
--	DS918+
--	DS920+
--	DS923+
--	DS1520+
--	DS1621+
--	DS2422+
+
 
 Los modelos XS no son compatibles.
 
