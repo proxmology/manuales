@@ -1,6 +1,10 @@
-# Utilizar tarjeta nvidia en DS918+,DS920+. DDS923+...
+# Instalar drivers de tarjeta grafica nvidia en promox
 
-En este tutorial vamos a ver de que manera podemos usar una tarjeta grafica nvidia en un modelo no “compatible” con tarjeta nvidia de serie como los DVA 3221 y 3219. Las tarjetas compatibles son las mismas que podriamos usar en los DVA.
+Primeramente actualizamos los paquetes y promox
+
+```
+apt update && apt dist-upgrade -y
+```
 
 Modelos confirmados a los que podemos añdirle una grafica nvidia:
 -	DS918+
