@@ -62,3 +62,8 @@ ejecutamos
 ```
 ./NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none --disable-nouveau
 ```
+Reiniciamos
+```
+reboot
+```
+
