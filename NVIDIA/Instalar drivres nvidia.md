@@ -22,7 +22,7 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 
   
   
-
+  
 Primera mente necesitamos saber cual es el ultimo controlador disponible:
 -	DS918+
 -	DS920+
