@@ -120,3 +120,4 @@ nvidia-smi
 ```
 systemctl status nvidia-persistenced
 ```
+![This is an image](nvidia2.png)
