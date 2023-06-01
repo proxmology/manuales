@@ -1,4 +1,6 @@
 # Instalar drivers de tarjeta grafica nvidia en promox
+Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [fuente original] ( https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist ) de la cual se basa este manual. 
+
 
 Primeramente actualizamos los paquetes y promox
 
@@ -16,7 +18,10 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 ```
 
 ##
-### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers
+### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
+
+
+
 
 Modelos confirmados a los que podemos añdirle una grafica nvidia:
 -	DS918+
