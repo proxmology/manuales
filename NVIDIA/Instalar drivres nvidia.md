@@ -20,12 +20,13 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.  
   
-  
-  
 Primera mente necesitamos saber cual es el ultimo controlador disponible:
 
+```
+https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
+```
 
-Los modelos XS no son compatibles.
+
 
 ##
 ### Preparación:
