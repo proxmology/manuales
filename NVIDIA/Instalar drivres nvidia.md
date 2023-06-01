@@ -112,4 +112,7 @@ git clone https://github.com/NVIDIA/nvidia-persistenced.git
 cd nvidia-persistenced/init
 ./install.sh
 ```
-
+Comprobamos que el servicio este ejecutándose:
+```
+systemctl status nvidia-persistenced
+```
