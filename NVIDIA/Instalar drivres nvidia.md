@@ -81,7 +81,9 @@ nvidia_uvm
 ```
 Guardamos:
 ctrl + x
+
 <br>
+
 Actualizamos initramfs:
 ```
 update-initramfs -u
