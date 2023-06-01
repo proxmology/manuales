@@ -34,6 +34,15 @@ Por ejemplo así:
 https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/
 ```
 
+Una vez dentro del directorio copiamos el enlace del instalador que termina con la extensión .run
+
+Por ejemplo:
+
+```
+https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
+```
+
+
 
 ![This is an image](imagenes/nvidia1.png)
 
