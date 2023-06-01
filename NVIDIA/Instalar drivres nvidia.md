@@ -68,5 +68,5 @@ reboot
 ```
 Una vez reiniciado proxmox continuamos con la intalación. Ejecutamos:
 ```
-/opt/nvidia/NVIDIA-Linux-x86_64-525.105.17.run --no-questions --ui=none
+/opt/nvidia/NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none
 ```
