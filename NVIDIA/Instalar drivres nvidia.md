@@ -21,7 +21,7 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
 <br>
 
-1 - Primera mente necesitamos saber cual es el ultimo controlador disponible:
+#### 1 - Primeramente necesitamos saber cual es el ultimo controlador disponible:
 
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
@@ -42,7 +42,7 @@ Por ejemplo:
 https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
 ```
 
-2 - Ahora empezamos con la instalación.
+#### 2 - Ahora empezamos con la instalación.
 
 ```
 mkdir /opt/nvidia
