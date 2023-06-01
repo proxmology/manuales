@@ -80,7 +80,7 @@ nvidia
 nvidia_uvm
 ```
 Guardamos:
-ctrl + x
+ctrl + x.
 
 <br>
 
@@ -102,3 +102,14 @@ KERNEL=="nvidia", RUN+="/bin/bash -c '/usr/bin/nvidia-smi -L'"
 KERNEL=="nvidia_uvm", RUN+="/bin/bash -c '/usr/bin/nvidia-modprobe -c0 -u'"
 ```
 Guardamos: ctrl + x
+
+<br>
+
+Ahora instalamos NVIDIA driver persistence:
+```
+Install GitHub - NVIDIA/nvidia-persistenced: NVIDIA driver persistence daemon
+git clone https://github.com/NVIDIA/nvidia-persistenced.git
+cd nvidia-persistenced/init
+./install.sh
+```
+
