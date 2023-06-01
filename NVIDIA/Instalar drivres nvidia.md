@@ -16,8 +16,7 @@ apt-get install git
 ```
 apt-get install -qqy pve-headers-`uname -r` gcc make 
 ```
-
-
+<br>
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
 <br>
 Primera mente necesitamos saber cual es el ultimo controlador disponible:
