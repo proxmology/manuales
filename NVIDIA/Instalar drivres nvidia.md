@@ -54,7 +54,11 @@ Descargamos el controlador que copiamos antes
 ```
 wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
 ```
+Le damos permisos de ejecución
 ```
-
+chmod +x NVIDIA-Linux-x86_64-525.105.17.run
 ```
-
+ejecutamos
+```
+./NVIDIA-Linux-x86_64-525.105.17.run --no-questions --ui=none --disable-nouveau
+```
