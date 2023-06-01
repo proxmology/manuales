@@ -50,19 +50,19 @@ mkdir /opt/nvidia
 ```
 cd /opt/nvidia
 ```
-Descargamos el controlador que copiamos antes
+Descargamos el controlador que copiamos antes.
 ```
 wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
 ```
-Le damos permisos de ejecución
+Le damos permisos de ejecución.
 ```
 chmod +x NVIDIA-Linux-x86_64-525.116.04.run
 ```
-ejecutamos
+ejecutamos.
 ```
 ./NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none --disable-nouveau
 ```
-Reiniciamos
+Una vez terminado reiniciamos.
 ```
 reboot
 ```
