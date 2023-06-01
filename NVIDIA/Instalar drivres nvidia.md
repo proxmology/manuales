@@ -28,8 +28,11 @@ https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt
 ```
 Cuando nos muestre el resultado, copiamos el numero y los sustituimos por “/latest.txt”
 
-Por ejemplo así: https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/
-(https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist)
+Por ejemplo así: 
+
+```
+https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/
+```
 
 
 ![This is an image](imagenes/nvidia1.png)
