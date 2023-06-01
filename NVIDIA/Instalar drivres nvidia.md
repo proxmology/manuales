@@ -28,7 +28,7 @@ https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt
 ```
 Cuando nos muestre el resultado, copiamos el numero y los sustituimos por “/latest.txt”
 
-Por ejemplo así: https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/
+Por ejemplo así: [https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/]
 
 
 ![This is an image](imagenes/nvidia1.png)
