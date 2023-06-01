@@ -70,3 +70,12 @@ Una vez reiniciado proxmox continuamos con la intalación. Ejecutamos:
 ```
 /opt/nvidia/NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none
 ```
+
+Ahora añadimos a etc/modules:
+```
+nano /etc/modules-load.d/modules.conf
+```
+```
+nvidia
+nvidia_uvm
+```
