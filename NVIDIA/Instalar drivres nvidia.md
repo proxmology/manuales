@@ -20,10 +20,7 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
 
-
-
-
-Modelos confirmados a los que podemos añdirle una grafica nvidia:
+Primera mente necesitamos saber cual es el ultimo controlador disponible:
 -	DS918+
 -	DS920+
 -	DS923+
