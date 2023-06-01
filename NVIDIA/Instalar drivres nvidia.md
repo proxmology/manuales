@@ -81,3 +81,17 @@ nvidia_uvm
 ```
 Guardamos:
 ctrl + x
+
+A continuación creamos reglas para cargar los controladores en el arranque para nvidia y nvidia_uvm:
+```
+nano /etc/udev/rules.d/70-nvidia.rules
+```
+Pegamos:
+```
+# /etc/udev/rules.d/70-nvidia.rules
+# Create /nvidia0, /dev/nvidia1 … and /nvidiactl when nvidia module is loaded
+KERNEL=="nvidia", RUN+="/bin/bash -c '/usr/bin/nvidia-smi -L'"
+#
+# Create the CUDA node when nvidia_uvm CUDA module is loaded
+KERNEL=="nvidia_uvm", RUN+="/bin/bash -c '/usr/bin/nvidia-modprobe -c0 -u'"
+```
