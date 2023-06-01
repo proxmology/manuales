@@ -21,7 +21,7 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
 <br>
 
-Primera mente necesitamos saber cual es el ultimo controlador disponible:
+1 - Primera mente necesitamos saber cual es el ultimo controlador disponible:
 
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
@@ -42,30 +42,18 @@ Por ejemplo:
 https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
 ```
 
-
-
-![This is an image](imagenes/nvidia1.png)
-
-
-Y nos instalamos el paquete NVIDIA Runtime Library
-
-![This is an image](imagenes/nvidia2.png)
-
-##
-### Parchamos el controlador:
-
-Una vez instalado reiniciamos nuestro Nas. Cuando reinicie nos conectamos por SSH y no logueamos como root
+2 - Ahora empezamos con la instalación.
 
 ```
-sudo -i
+mkdir /opt/nvidia
 ```
-Una vez como root copiamos y pegamos esto:
 ```
-cd /var/packages/NVIDIARuntimeLibrary/conf && mv -f privilege.bak privilege
+cd /opt/nvidia
+```
 ```
 
 ```
-cd /var/packages/NVIDIARuntimeLibrary/scripts && ./start-stop-status start
 ```
 
-Comp
+```
+
