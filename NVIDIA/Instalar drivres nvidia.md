@@ -6,6 +6,18 @@ Primeramente actualizamos los paquetes y promox
 apt update && apt dist-upgrade -y
 ```
 
+Después instalamos dos paquetes que necesitaremos uno es git y otro los encabezados del kernel para poder instalar los drivers:
+
+```
+apt-get install git
+```
+```
+apt-get install -qqy pve-headers-`uname -r` gcc make 
+```
+
+##
+### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers
+
 Modelos confirmados a los que podemos añdirle una grafica nvidia:
 -	DS918+
 -	DS920+
