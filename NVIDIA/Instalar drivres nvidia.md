@@ -19,10 +19,10 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 
 
 #### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.  
-
-
-
-1 - Primera mente necesitamos saber cual es el ultimo controlador disponible:
+  
+  
+  
+Primera mente necesitamos saber cual es el ultimo controlador disponible:
 
 
 Los modelos XS no son compatibles.
