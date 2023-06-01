@@ -50,8 +50,9 @@ mkdir /opt/nvidia
 ```
 cd /opt/nvidia
 ```
+Descargamos el controlador que copiamos antes
 ```
-
+wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
 ```
 ```
 
