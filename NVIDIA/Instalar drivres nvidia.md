@@ -137,7 +137,8 @@ cd nvidia-patch
 ```
 ## Añadir la grafica NVIDIA a un LXC.
 
-
+Necesitamos obtener estos datos:
 ```
 ls -l /dev/nv*
 ```
+![This is an image](nvidia3.png)
