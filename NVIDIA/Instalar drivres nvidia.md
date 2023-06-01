@@ -1,6 +1,6 @@
 # Instalar drivers de tarjeta grafica nvidia en promox
 Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
-
+#
 
 Primeramente actualizamos los paquetes y promox
 
