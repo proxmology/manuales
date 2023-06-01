@@ -79,3 +79,5 @@ nano /etc/modules-load.d/modules.conf
 nvidia
 nvidia_uvm
 ```
+Guardamos:
+ctrl + x
