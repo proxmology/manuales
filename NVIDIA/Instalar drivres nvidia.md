@@ -170,7 +170,7 @@ systemctl status nvidia-persistenced
 ```
 ![This is an image](nvidia-4.png)
 
-Ahora parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima:
+Ahora como opcion, parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima:
 ```
 cd /opt/nvidia
 git clone https://github.com/keylase/nvidia-patch.git
