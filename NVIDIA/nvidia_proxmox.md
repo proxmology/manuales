@@ -31,7 +31,7 @@ echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 reboot
 ```
 
-2- Asegurarnos que tenemos estos repositorios configurados:
+2- Asegurarnos que tenemos estos repositorios añadidos:
 
 (*Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que no es necesario puesto que están añadidos estos repositorios.*)
 
