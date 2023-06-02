@@ -173,16 +173,12 @@ systemctl status nvidia-persistenced
 Ahora parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima:
 ```
 cd /opt/nvidia
-```
-```
 git clone https://github.com/keylase/nvidia-patch.git
-```
-```
 cd nvidia-patch
-```
-```
 ./patch.sh
 ```
+![This is an image](nvidia-5.png)
+
 ## Añadir la grafica NVIDIA a un LXC.
 
 Necesitamos obtener estos datos:
