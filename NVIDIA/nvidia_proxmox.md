@@ -206,10 +206,10 @@ Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck con ID10
 ```
 nano /etc/pve/lxc/100.conf
 ```
-Si las hibiera, comentamos todas las líneas que aparezcan: 
+Si las hibiera, comentamos todas las líneas en las que aparezca: 
 <br>
-- lxc.cgroup2.devices.allow
-- /dev/dri
+- lxc.cgroup2.devices.allow...
+- /dev/dri...
 <br>
 
 y pegamos esto dentro del archivo de configuración del LXC. (*los numeros pueden variar que un equipo a otro*)
