@@ -240,4 +240,12 @@ mkdir /opt/nvidia
 ```
 cd /opt/nvidia
 ```
-
+```
+wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/NVIDIA-Linux-x86_64-525.116.03.run
+```
+```
+chmod +x NVIDIA-Linux-x86_64-525.116.03.run
+```
+```
+./NVIDIA-Linux-x86_64-525.105.17.run --no-kernel-module
+```
