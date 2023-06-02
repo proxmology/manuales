@@ -11,6 +11,12 @@ Para poder realizar la instalación debemos:
 <br>
 <br>
 1- poner en la lista negra el controlador de "nouveau" si no lo tenemos ya.
+
+Lo podemos comprobar asi: 
+```
+Cat /etc/modprobe.d/blacklist.conf
+```
+Si no muestra blacklist nouveau
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
