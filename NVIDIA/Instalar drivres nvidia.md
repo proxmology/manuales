@@ -174,7 +174,7 @@ systemctl status nvidia-persistenced
 ```
 ![This is an image](nvidia-4.png)
 
-### * Parche.
+### - Parche.
 
 Ahora como opcion, parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima. Según el desarrollador el parche NVENC elimina la restricción sobre la cantidad máxima de sesiones de codificación de video NVENC simultáneas impuestas por Nvidia a las GPU de nivel de consumidor.
 
