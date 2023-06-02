@@ -1,5 +1,5 @@
 # Instalar drivers de tarjeta grafica Nvidia en Promox
-Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
+Antes de empezar quiero agradecer al compañero @juanlu13 por proporcionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
 #
 Este manual vamos a instalar los drivers de Nvidia, el servicio persistente y un parche opcional para para eliminar las sesiones de codificación máxima.
 
