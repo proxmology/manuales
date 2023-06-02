@@ -273,3 +273,11 @@ nvidia-smi
 
 ## Comprobamos que Plex use la grafica.
 
+<br>
+
+![This is an image](nvidia-11.png)
+
+<br>
+
+![This is an image](nvidia-12.png)
+
