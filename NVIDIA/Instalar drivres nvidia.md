@@ -250,6 +250,7 @@ chmod +x NVIDIA-Linux-x86_64-525.116.03.run
 ./NVIDIA-Linux-x86_64-525.116.03.run --no-kernel-module
 ```
 <br>
+
 Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos pregunte.
 
 <br>
@@ -257,6 +258,7 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 ![This is an image](nvidia-8.png)
 
 <br>
+
 Una vez terminada la instalación comprobamos que todo este correcto
 
 ```
