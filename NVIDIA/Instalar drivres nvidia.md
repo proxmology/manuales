@@ -49,7 +49,7 @@ Cuando nos muestre el resultado, copiamos el numero y los sustituimos por “/la
 Por ejemplo así: 
 
 ```
-https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/
+https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/
 ```
 
 Una vez dentro del directorio copiamos el enlace del instalador que termina con la extensión .run
@@ -57,7 +57,7 @@ Una vez dentro del directorio copiamos el enlace del instalador que termina con 
 Por ejemplo:
 
 ```
-https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
+https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/NVIDIA-Linux-x86_64-525.116.03.run
 ```
 
 #### 2 - Ahora empezamos con la instalación.
@@ -70,15 +70,15 @@ cd /opt/nvidia
 ```
 Descargamos el controlador que copiamos antes.
 ```
-wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.04/NVIDIA-Linux-x86_64-525.116.04.run
+wget https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/NVIDIA-Linux-x86_64-525.116.03.run
 ```
 Le damos permisos de ejecución.
 ```
-chmod +x NVIDIA-Linux-x86_64-525.116.04.run
+chmod +x NVIDIA-Linux-x86_64-525.116.03.run
 ```
 ejecutamos.
 ```
-./NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none --disable-nouveau
+./NVIDIA-Linux-x86_64-525.116.03.run --no-questions --ui=none --disable-nouveau
 ```
 Una vez terminado reiniciamos.
 ```
@@ -86,7 +86,7 @@ reboot
 ```
 Una vez reiniciado proxmox continuamos con la intalación. Ejecutamos:
 ```
-/opt/nvidia/NVIDIA-Linux-x86_64-525.116.04.run --no-questions --ui=none
+/opt/nvidia/NVIDIA-Linux-x86_64-525.116.03.run --no-questions --ui=none
 ```
 
 Ahora añadimos a etc/modules:
