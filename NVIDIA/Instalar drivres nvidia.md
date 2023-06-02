@@ -164,6 +164,10 @@ git clone https://github.com/NVIDIA/nvidia-persistenced.git
 cd nvidia-persistenced/init
 ./install.sh
 ```
+```
+rebbot
+```
+
 Comprobamos que el controlador este instalado y el servicio este ejecutándose:
 ```
 nvidia-smi
