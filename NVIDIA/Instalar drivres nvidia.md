@@ -205,7 +205,7 @@ Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck con ID10
 ```
 nano /etc/pve/lxc/100.conf
 ```
-Pegamos esto dentro del archivo de configuración del LXC
+Comentamos estas líneas y pegamos esto dentro del archivo de configuración del LXC
 
 ```
 lxc.cgroup2.devices.allow: c 195:* rwm
@@ -219,3 +219,5 @@ lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,creat
 lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
 lxc.mount.entry: /dev/nvram dev/nvram none bind,optional,create=file
 ```
+
+![This is an image](nvidia-7.png)
