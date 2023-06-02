@@ -1,4 +1,4 @@
-# Instalar drivers de tarjeta grafica nvidia en promox
+# Instalar drivers de tarjeta grafica NVIDIA en Promox
 Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
 #
 Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un parche opcional para para eliminar las sesiones de codificación máxima.
@@ -35,7 +35,7 @@ apt-get install git
 ```
 apt-get install -qqy pve-headers-`uname -r` gcc make 
 ```
-# 1 - Instalamos los drivers de NVIDIA en el host de Proxmox
+## 1 - Instalamos los drivers de NVIDIA en el host de Proxmox
 
 Necesitamos saber cual es el ultimo controlador estable disponible:
 
