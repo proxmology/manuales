@@ -27,7 +27,7 @@ Actualizamos los paquetes y promox
 apt update && apt dist-upgrade -y
 ```
 
-Instalamos dos paquetes que necesitaremos, git y los encabezados del kernel para poder instalar los drivers:
+Antes de empezar, instalamos dos paquetes que necesitaremos, git y los encabezados del kernel para poder instalar los drivers:
 
 ```
 apt-get install git
