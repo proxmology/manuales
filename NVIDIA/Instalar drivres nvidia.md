@@ -260,10 +260,10 @@ Una vez terminada la instalación comprobamos que todo este correcto
 ls -l /dev/nv*
 ```
 
-![This is an image](nvidia-9.png)
+![This is an image](nvidia-10.png)
 
 ```
 nvidia-smi
 ```
 
-![This is an image](nvidia-10.png)
+![This is an image](nvidia-9.png)
