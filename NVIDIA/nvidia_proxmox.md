@@ -212,7 +212,10 @@ Si las hubiera, comentamos todas las líneas en las que aparezca:
 - /dev/dri...
 <br>
 
-y pegamos esto dentro del archivo de configuración del LXC. (*los numeros pueden variar que un equipo a otro*)
+y pegamos esto dentro del archivo de configuración del LXC, que corresponde a los datos que obtuvimos con ls -l /dev/nv*  
+<br>
+
+(*los numeros pueden variar que un equipo a otro*)
 
 ```
 lxc.cgroup2.devices.allow: c 195:* rwm
