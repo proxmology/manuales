@@ -164,11 +164,11 @@ Comprobamos que el controlador este instalado y el servicio este ejecutándose:
 ```
 nvidia-smi
 ```
-![This is an image](nvidia1.png)
+![This is an image](nvidia-3.png)
 ```
 systemctl status nvidia-persistenced
 ```
-![This is an image](nvidia2.png)
+![This is an image](nvidia-4.png)
 
 Ahora parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima:
 ```
