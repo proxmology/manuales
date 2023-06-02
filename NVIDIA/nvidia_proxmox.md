@@ -206,7 +206,10 @@ Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck con ID10
 ```
 nano /etc/pve/lxc/100.conf
 ```
-Comentamos estas líneas y pegamos esto dentro del archivo de configuración del LXC. (*los numeros pueden variar que un equipo a otro*)
+Si las hibiera, comentamos todas las líneas que aparezcan: lxc.cgroup2.devices.allow y /dev/dri
+<br>
+
+y pegamos esto dentro del archivo de configuración del LXC. (*los numeros pueden variar que un equipo a otro*)
 ```
 #lxc.cgroup2.devices.allow: c 226:0 rwm
 #lxc.cgroup2.devices.allow: c 226:128 rwm
