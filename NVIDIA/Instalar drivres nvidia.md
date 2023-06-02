@@ -60,7 +60,7 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 ```
 ## 1 - Instalar los drivers de Nvidia en el host de Proxmox
 
-### * Driver.
+### - Driver:
 
 Para empezar, necesitamos saber cual es el ultimo controlador estable disponible:*
 <br>
@@ -155,7 +155,7 @@ Guardamos: ctrl + x
 
 <br>
 
-### * NVIDIA driver persistence.
+### - NVIDIA driver persistence:
 
 Ahora instalamos NVIDIA driver persistence:
 ```
@@ -174,7 +174,7 @@ systemctl status nvidia-persistenced
 ```
 ![This is an image](nvidia-4.png)
 
-### - Parche.
+### - Parche:
 
 Ahora como opcion, parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima. Según el desarrollador el parche NVENC elimina la restricción sobre la cantidad máxima de sesiones de codificación de video NVENC simultáneas impuestas por Nvidia a las GPU de nivel de consumidor.
 
