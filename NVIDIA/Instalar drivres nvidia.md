@@ -10,7 +10,7 @@ Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un
 Para poder realizar la instalación debemos:
 <br>
 <br>
-1- poner en la lista negra el controlador de "nouveau" si no lo tenemos ya.
+1- poner en la lista negra el controlador de "nouveau" si no lo tenemos ya. Si ya lo tenemos podemos saltarnos este paso.
 
 Lo podemos comprobar asi: 
 ```
