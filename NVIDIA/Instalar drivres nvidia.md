@@ -197,7 +197,9 @@ ls -l /dev/nv*
 ![This is an image](nvidia-6.png)
 
 
-Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck
-
+Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck. Si lo tenemos ejecutado lo apagamos.
+```
+nano /etc/pve/lxc/100.conf
+```
 
 
