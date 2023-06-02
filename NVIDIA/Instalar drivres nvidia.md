@@ -4,8 +4,8 @@ Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [
 Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un parche opcional para para eliminar las sesiones de codificación máxima.
 
 
-- Instalamos los drives nvidia en el host de Proxmox.
--	Configuramos los drives para poder usarlos en cualquier LXC.
+- Instalaremos los drives nvidia en el host de Proxmox.
+-	Configuraremos los drives para poder usarlos en cualquier LXC.
 
 Para poder realizar la instalación debemos asegurarnos que tenemos estos repositorios confugurados en nuestros host de Proxmox:
 
