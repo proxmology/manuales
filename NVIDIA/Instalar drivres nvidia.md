@@ -16,7 +16,7 @@ Lo podemos comprobar asi:
 ```
 Cat /etc/modprobe.d/blacklist.conf
 ```
-En la imagen de ejemplo muestra que si que esta añadido a la lista negra.: blacklist nouveau
+En la imagen de ejemplo muestra que si que esta añadido a la lista negra "blacklist nouveau"
 
 ![This is an image](nvidia-2.png)
 
