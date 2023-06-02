@@ -7,10 +7,13 @@ Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un
 - Instalaremos los drives nvidia en el host de Proxmox.
 -	Configuraremos los drives para poder usarlos en cualquier LXC.
 
-Para poder realizar la instalación debemos poner en la lista negra el controlador de nouveau y asegurarnos que tenemos estos repositorios configurados:
+Para poder realizar la instalación debemos:
+1- poner en la lista negra el controlador de "nouveau"
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
+2- Asegurarnos que tenemos estos repositorios configurados:
+
 Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario puesto que están añadidos estos repositorios.
 
 ```
