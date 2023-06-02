@@ -17,6 +17,9 @@ Lo podemos comprobar asi:
 Cat /etc/modprobe.d/blacklist.conf
 ```
 Si no muestra: blacklist nouveau
+
+![This is an image](nvidia-1.png)
+
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
