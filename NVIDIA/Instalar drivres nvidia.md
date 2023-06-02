@@ -8,6 +8,10 @@ Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un
 -	Configuramos los drives para poder usarlos en cualquier LXC.
 
 Para poder realizar la instalación debemos asegurarnos que tenemos estos repositorios confugurados en nuestros host de Proxmox:
+
+
+Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario ya qye están añadidos estos repositorios.
+
 ```
 nano /etc/apt/sources.list
 ```
@@ -17,8 +21,6 @@ deb http://ftp.debian.org/debian bullseye-updates main contrib
 deb http://security.debian.org/debian-security bullseye-security main contrib
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 ```
-Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario ya qye están añadidos estos repositorios.
-
 Primeramente actualizamos los paquetes y promox
 
 ```
