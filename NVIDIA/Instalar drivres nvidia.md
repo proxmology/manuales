@@ -289,3 +289,6 @@ Como podemos observar el contenedor LXC hace uso de la grafica de Nvidia de nues
 
 Si queremos que cualquier LXC haga uso de nuestra grafica simplemente es seguir los mismos pasos. 
 
+Enjoy!!
+
+Un tutorial de Proxmology.
