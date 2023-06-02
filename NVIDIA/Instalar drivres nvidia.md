@@ -120,6 +120,10 @@ Ahora añadimos a etc/modules:
 nano /etc/modules-load.d/modules.conf
 ```
 ```
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqfd
 nvidia
 nvidia_uvm
 ```
