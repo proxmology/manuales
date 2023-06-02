@@ -17,7 +17,7 @@ deb http://ftp.debian.org/debian bullseye-updates main contrib
 deb http://security.debian.org/debian-security bullseye-security main contrib
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 ```
-Si tenemos instalado el script post instalación de  [tteck] (https://tteck.github.io/Proxmox/) o el de [xshok] (https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario ya qye están añadidos estos repositorios.
+Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario ya qye están añadidos estos repositorios.
 
 Primeramente actualizamos los paquetes y promox
 
