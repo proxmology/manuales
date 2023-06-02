@@ -257,6 +257,7 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 
 <br>
 Una vez terminada la instalación comprobamos que todo este correcto
+
 ```
 ls -l /dev/nv*
 ```
