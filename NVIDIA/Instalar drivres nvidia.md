@@ -55,6 +55,7 @@ https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/
 Una vez dentro del directorio copiamos el enlace del instalador que termina con la extensión .run
 
 Por ejemplo:
+
 ![This is an image](nvidia-1.png)
 
 ```
