@@ -22,7 +22,7 @@ En la imagen de ejemplo muestra que si que esta añadido a la lista negra "black
 
 Si no muestra: blacklist nouveau
 
-Lo añadimos a la lista negra para que no lo use y podemos instalar el driver de nvidia.
+Lo añadimos para que no lo use y podemos instalar el driver de nvidia.
 
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
