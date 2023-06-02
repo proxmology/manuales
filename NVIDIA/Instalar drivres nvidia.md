@@ -10,7 +10,7 @@ Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un
 Para poder realizar la instalación debemos asegurarnos que tenemos estos repositorios confugurados en nuestros host de Proxmox:
 
 
-Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario ya qye están añadidos estos repositorios.
+Si tenemos instalado el script post instalación de  [tteck](https://tteck.github.io/Proxmox/) o el de [xshok](https://github.com/extremeshok/xshok-proxmox), podemos saltarnos este paso ya que nos es necesario puesto que están añadidos estos repositorios.
 
 ```
 nano /etc/apt/sources.list
