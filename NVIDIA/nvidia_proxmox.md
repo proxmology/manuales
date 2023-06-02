@@ -14,15 +14,15 @@ Para poder realizar la instalación debemos:
 
 Lo podemos comprobar asi: 
 ```
-Cat /etc/modprobe.d/blacklist.conf
+cat /etc/modprobe.d/blacklist.conf
 ```
-En la imagen de ejemplo muestra que si que esta añadido a la lista negra "blacklist nouveau"
+En la imagen del ejemplo se muestra que si que esta añadido a la lista negra "blacklist nouveau"
 
 ![This is an image](nvidia-2.png)
 
-Si no muestra: blacklist nouveau
+Si en nuestro caso no se mostrara: blacklist nouveau
 
-Lo añadimos para que no lo use y podemos instalar el driver de Nvidia.
+Lo añadimos así para que no lo use y podemos instalar el driver de Nvidia.
 
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
