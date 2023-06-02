@@ -21,13 +21,13 @@ deb http://ftp.debian.org/debian bullseye-updates main contrib
 deb http://security.debian.org/debian-security bullseye-security main contrib
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 ```
-Primeramente actualizamos los paquetes y promox
+Actualizamos los paquetes y promox
 
 ```
 apt update && apt dist-upgrade -y
 ```
 
-Después instalamos dos paquetes que necesitaremos uno es git y otro los encabezados del kernel para poder instalar los drivers:
+Instalamos dos paquetes que necesitaremos, git y los encabezados del kernel para poder instalar los drivers:
 
 ```
 apt-get install git
