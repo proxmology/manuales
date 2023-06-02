@@ -20,7 +20,7 @@ En la imagen del ejemplo se muestra que si que esta añadido a la lista negra "b
 
 ![This is an image](nvidia-2.png)
 
-Si en nuestro caso no se mostrara: blacklist nouveau
+Si en nuestro caso no se muestra: blacklist nouveau
 
 Lo añadimos así para que no lo use y podemos instalar el driver de Nvidia.
 
