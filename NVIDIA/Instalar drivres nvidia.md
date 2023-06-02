@@ -251,10 +251,11 @@ chmod +x NVIDIA-Linux-x86_64-525.116.03.run
 ```
 <br>
 Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos pregunte.
+<br>
 
 ![This is an image](nvidia-8.png)
 
-
+<br>
 Una vez terminada la instalación comprobamos que todo este correcto
 ```
 ls -l /dev/nv*
