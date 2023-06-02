@@ -63,7 +63,7 @@ Por ejemplo:
 https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/NVIDIA-Linux-x86_64-525.116.03.run
 ```
 
-#### Empezamos con la instalación.
+#### Empezamos con la instalación:
 
 ```
 mkdir /opt/nvidia
