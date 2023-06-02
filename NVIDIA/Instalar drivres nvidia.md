@@ -269,3 +269,7 @@ nvidia-smi
 ```
 
 ![This is an image](nvidia-9.png)
+
+
+## Comprobamos que Plex use la grafica.
+
