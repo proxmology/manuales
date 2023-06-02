@@ -274,7 +274,9 @@ nvidia-smi
 ## Comprobamos que Plex use la grafica.
 
 <br>
+
 Como podemos observar el contenedor LXC hace uso de la grafica de Nvidia de nuestro host Proxmox.
+
 <br>
 
 ![This is an image](nvidia-11.png)
