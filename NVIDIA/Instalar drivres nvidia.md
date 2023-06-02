@@ -9,6 +9,7 @@ Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un
 
 Para poder realizar la instalación debemos:
 <br>
+<br>
 1- poner en la lista negra el controlador de "nouveau"
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
