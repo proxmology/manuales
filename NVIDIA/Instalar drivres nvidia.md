@@ -16,7 +16,7 @@ Lo podemos comprobar asi:
 ```
 Cat /etc/modprobe.d/blacklist.conf
 ```
-Si no muestra blacklist nouveau
+Si no muestra: blacklist nouveau
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
