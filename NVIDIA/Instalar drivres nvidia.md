@@ -188,8 +188,14 @@ cd nvidia-patch
 
 ## 2- Configurar los drives para poder usarlos en cualquier LXC.
 
-Necesitamos obtener estos datos:
+Primeramente necesitamos obtener estos datos:
 ```
 ls -l /dev/nv*
 ```
 ![This is an image](nvidia-6.png)
+
+
+Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck
+
+
+
