@@ -201,9 +201,18 @@ ls -l /dev/nv*
 ![This is an image](nvidia-6.png)
 
 
-Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck. Si lo tenemos ejecutado lo apagamos.
+Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck con ID100. Si lo tenemos ejecutado lo apagamos.
 ```
 nano /etc/pve/lxc/100.conf
 ```
-
-
+```
+lxc.cgroup2.devices.allow: c 509* rwm
+lxc.cgroup2.devices.allow: c 10:* rwm
+lxc.cgroup2.devices.allow: c 238:* rwm
+lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
+lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
+lxc.mount.entry: /dev/nvram dev/nvram none bind,optional,create=file
+```
