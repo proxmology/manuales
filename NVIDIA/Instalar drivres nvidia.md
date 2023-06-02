@@ -1,10 +1,10 @@
-# Instalar drivers de tarjeta grafica NVIDIA en Promox
+# Instalar drivers de tarjeta grafica Nvidia en Promox
 Antes de empezar quiero agradecer al compañero @juanlu13 por promocionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
 #
-Este manual vamos a instalar los drivers de nvidia, el servicio persistente y un parche opcional para para eliminar las sesiones de codificación máxima.
+Este manual vamos a instalar los drivers de Nvidia, el servicio persistente y un parche opcional para para eliminar las sesiones de codificación máxima.
 
 
-- Instalaremos los drives nvidia en el host de Proxmox.
+- Instalaremos los drives Nvidia en el host de Proxmox.
 -	Configuraremos los drives para poder usarlos en cualquier LXC.
 
 Para poder realizar la instalación debemos:
@@ -22,7 +22,7 @@ En la imagen de ejemplo muestra que si que esta añadido a la lista negra "black
 
 Si no muestra: blacklist nouveau
 
-Lo añadimos para que no lo use y podemos instalar el driver de nvidia.
+Lo añadimos para que no lo use y podemos instalar el driver de Nvidia.
 
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
@@ -58,7 +58,7 @@ apt-get install git
 ```
 apt-get install -qqy pve-headers-`uname -r` gcc make 
 ```
-## 1 - Instalar los drivers de NVIDIA en el host de Proxmox
+## 1 - Instalar los drivers de Nvidia en el host de Proxmox
 
 Para empezar, necesitamos saber cual es el ultimo controlador estable disponible:*
 <br>
@@ -170,7 +170,8 @@ systemctl status nvidia-persistenced
 ```
 ![This is an image](nvidia-4.png)
 
-Ahora como opcion, parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima:
+Ahora como opcion, parcheamos el controlador nvidia para eliminar las sesiones de codificación máxima. Según el desarrollador el parche NVENC elimina la restricción sobre la cantidad máxima de sesiones de codificación de video NVENC simultáneas impuestas por Nvidia a las GPU de nivel de consumidor.
+
 ```
 cd /opt/nvidia
 git clone https://github.com/keylase/nvidia-patch.git
