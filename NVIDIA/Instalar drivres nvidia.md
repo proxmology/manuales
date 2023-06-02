@@ -192,4 +192,4 @@ Necesitamos obtener estos datos:
 ```
 ls -l /dev/nv*
 ```
-![This is an image](nvidia3.png)
+![This is an image](nvidia-6.png)
