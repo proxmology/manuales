@@ -38,6 +38,8 @@ apt-get install -qqy pve-headers-`uname -r` gcc make
 ## 1 - Instalar los drivers de NVIDIA en el host de Proxmox
 
 Para empezar, necesitamos saber cual es el ultimo controlador estable disponible:*
+<br>
+
 *Si vamos a instalar el parche para saltarnos el limite de codificaciones máximas, tenemos que tener en cuenta que ese parche este disponible para la versión del controlador que vamos a instalar.*
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
