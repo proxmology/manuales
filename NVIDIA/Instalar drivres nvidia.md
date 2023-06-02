@@ -58,7 +58,7 @@ apt-get install git
 ```
 apt-get install -qqy pve-headers-`uname -r` gcc make 
 ```
-## 1 - Instalar los drivers de Nvidia en el host de Proxmox
+# 1 - Instalar los drivers de Nvidia en el host de Proxmox
 
 ### - Driver:
 
@@ -186,7 +186,7 @@ cd nvidia-patch
 ```
 ![This is an image](nvidia-5.png)
 
-## Añadir la grafica NVIDIA a un LXC.
+# 2- Configurar los drives para poder usarlos en cualquier LXC.
 
 Necesitamos obtener estos datos:
 ```
