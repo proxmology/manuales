@@ -201,18 +201,19 @@ ls -l /dev/nv*
 ![This is an image](nvidia-6.png)
 
 
+
 Pongamos por ejemplo que vamos a usar el LXC de Plex del scrip de tteck con ID100. Si lo tenemos ejecutado lo apagamos.
 ```
 nano /etc/pve/lxc/100.conf
 ```
 Comentamos estas líneas y pegamos esto dentro del archivo de configuración del LXC
-
+```
 #lxc.cgroup2.devices.allow: c 226:0 rwm
 #lxc.cgroup2.devices.allow: c 226:128 rwm
 #lxc.cgroup2.devices.allow: c 29:0 rwm
 #lxc.mount.entry: /dev/dri dev/dri none bind,optional,create=dir
 #lxc.mount.entry: /dev/dri/renderD128 dev/dri/renderD128 none bind,optional,create=file
-
+```
 ```
 lxc.cgroup2.devices.allow: c 195:* rwm
 lxc.cgroup2.devices.allow: c 509* rwm
