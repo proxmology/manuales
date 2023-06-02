@@ -20,6 +20,8 @@ Si no muestra: blacklist nouveau
 
 ![This is an image](nvidia-2.png)
 
+Lo añadimos a la lista negra para que no lo use y podemos instalar el driver de nvidia.
+
 ```
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
