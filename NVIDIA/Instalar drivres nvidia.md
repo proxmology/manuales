@@ -186,6 +186,8 @@ cd nvidia-patch
 ```
 ![This is an image](nvidia-5.png)
 
+<br>
+
 ## 2- Configurar los drives para poder usarlos en cualquier LXC.
 
 Primeramente necesitamos obtener estos datos:
