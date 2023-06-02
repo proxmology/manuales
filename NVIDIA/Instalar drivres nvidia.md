@@ -35,12 +35,9 @@ apt-get install git
 ```
 apt-get install -qqy pve-headers-`uname -r` gcc make 
 ```
-<br>
+# 1 - Instalamos los drivers de NVIDIA en el host de Proxmox
 
-### Una vez realizados los preparativos necesarios, ya podemos instalar los drivers.
-<br>
-
-#### 1 - Primeramente necesitamos saber cual es el ultimo controlador disponible:
+Necesitamos saber cual es el ultimo controlador estable disponible:
 
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
