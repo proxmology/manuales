@@ -229,6 +229,15 @@ lxc.mount.entry: /dev/nvram dev/nvram none bind,optional,create=file
 
 ![This is an image](nvidia-7.png)
 
+<br>
 
 Ejecutamos el LCX y vamos a instalar dentro de el, el driver de Nvidia.
 **IMPORTANTE esta instalación la hacemos desde la consola del LCX no desde Proxmox**
+
+```
+mkdir /opt/nvidia
+```
+```
+cd /opt/nvidia
+```
+
