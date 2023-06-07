@@ -56,10 +56,13 @@ Cuando termine reiniciamos y cuando arranque ya tendremos Kodi actualizado.
 
 ### Imagenes.
 <br>
- ![This is an image](kodi2.png)
+
+ ![This is an image](kodi3.png)
+ 
  <br>
  
  ![This is an image](kodi4.jpg)
+ 
 <br>
 
 Podemos saber mas de como configurar un LXC con Intel GPU en el blog de [Konpat](https://blog.konpat.me/dev/2019/03/11/setting-up-lxc-for-intel-gpu-proxmox.html)
