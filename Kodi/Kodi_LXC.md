@@ -56,7 +56,7 @@ Cuando termine reiniciamos y cuando arranque ya tendremos Kodi actualizado.
 
 ### Imagenes.
 <br>
- ![This is an image](kodi3.png)
+ ![This is an image](kodi2.png)
  <br>
  
  ![This is an image](kodi4.jpg)
