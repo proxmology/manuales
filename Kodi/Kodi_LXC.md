@@ -11,6 +11,7 @@ Para ella vamos a instalar en el script que ha creado el usuario
  bash -c "$(wget -qLO - https://raw.githubusercontent.com/mrrudy/proxmoxHelper/main/ct/kodi-v1.sh)"
  ```
 Paciencia tarda en instalarse.
+El acceso a tty7 quiere decir que ya le podemos conectar nuestro monitor o tv.
 #
 
 ### Teclado, ratón o mando USB.
