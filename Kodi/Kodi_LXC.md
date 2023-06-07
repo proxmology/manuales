@@ -61,7 +61,7 @@ Cuando termine reiniciamos y cuando arranque ya tendremos Kodi actualizado.
  
  <br>
  
- ![This is an image](kodi4.jpg)
+ ![This is an image](kodi4.jp3g)
  
 <br>
 
