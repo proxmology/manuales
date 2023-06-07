@@ -7,4 +7,4 @@ Indice de manuales:
 - [Permisos fusi en CT proxmox](https://github.com/proxmology/manuales/blob/main/permisos%20fusi%20en%20CT%20proxmox.txt)
 - [Proxmox Backup Clod](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/README.MD)
 - [Proxmox en Microserver HP Gen8](https://github.com/proxmology/manuales/blob/main/Proxmox_Microserver_HP_Gen8.pdf)
-- [Inastlar Drivres Nvidia en Proxmox](https://github.com/MacRimi/manuales/blob/main/NVIDIA/nvidia_proxmox.md)
+- [Inastlar Drivres Nvidia en Proxmox](https://github.com/proxmology/manuales/blob/main/NVIDIA/nvidia_proxmox.md)
