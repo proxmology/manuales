@@ -8,4 +8,4 @@ Indice de manuales:
 - [Proxmox Backup Clod](https://github.com/proxmology/manuales/blob/main/Proxmox%20Backup%20Cloud/README.MD)
 - [Proxmox en Microserver HP Gen8](https://github.com/proxmology/manuales/blob/main/Proxmox_Microserver_HP_Gen8.pdf)
 - [Inastlar Drivres Nvidia en Proxmox](https://github.com/proxmology/manuales/blob/main/NVIDIA/nvidia_proxmox.md)
-- [Inastlar Kodi en un LXC y usarlo en una TV](https://github.com/proxmology/manuales/blob/main/NVIDIA/nvidia_proxmox.md)
+- [Inastlar Kodi en un LXC y usarlo en una TV](https://github.com/proxmology/manuales/blob/main/Kodi/Kodi_LXC.md)
