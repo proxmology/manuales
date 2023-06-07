@@ -39,6 +39,14 @@ lxc.mount.entry: /dev/input dev/input none bind,optional,create=dir
  ![This is an image](kodi2.png)
  
  
+Cuando terminemos, reiniciamos Proxmox:
+
+ ```
+ reboot
+  ```
+ 
+ 
+ 
  #
 
 ### Actualizar Kodi.
