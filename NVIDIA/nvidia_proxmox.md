@@ -68,6 +68,9 @@ Para empezar, necesitamos saber cual es el ultimo controlador estable disponible
 (*Si vamos a instalar el parche para saltarnos el limite de codificaciones máximas, tenemos que tener en cuenta que ese parche este disponible para la versión del controlador que vamos a instalar.*) Podemos verlo [aquí](https://github.com/keylase/nvidia-patch).
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
+
+Podemos  comprobar el listado completo de Drivers [aquí](https://download.nvidia.com/XFree86/Linux-x86_64/)
+
 ```
 Cuando nos muestre el resultado, copiamos el numero y los sustituimos por “/latest.txt”
 
