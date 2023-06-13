@@ -268,6 +268,10 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 
 <br>
 
+Cuando termine de instalarse el driver como último paso instalamos:
+```
+apt-get install nvidia-container-runtime
+```
 
 Una vez terminada la instalación comprobamos que todo este correcto
 
@@ -302,11 +306,6 @@ Como podemos observar el contenedor LXC de Plex hace uso de la grafica de Nvidia
 
 Si queremos que cualquier LXC haga uso de nuestra grafica simplemente es seguir los mismos pasos. 
 
-* Importante, si vamos a usar la gráfica en docker es importante instalar además:
-
-```
-apt-get install nvidia-container-runtime
-```
 
 Enjoy!!
 
