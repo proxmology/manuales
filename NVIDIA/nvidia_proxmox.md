@@ -222,7 +222,7 @@ y pegamos esto dentro del archivo de configuración del LXC, que corresponde a l
 
 ```
 lxc.cgroup2.devices.allow: c 195:* rwm
-lxc.cgroup2.devices.allow: c 509* rwm
+lxc.cgroup2.devices.allow: c 509:* rwm
 lxc.cgroup2.devices.allow: c 10:* rwm
 lxc.cgroup2.devices.allow: c 238:* rwm
 lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
