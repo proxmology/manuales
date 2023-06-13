@@ -69,6 +69,10 @@ Para empezar, necesitamos saber cual es el ultimo controlador estable disponible
 ```
 https://download.nvidia.com/XFree86/Linux-x86_64/latest.txt 
 ```
+
+Podemos  comprobar el listado completo de Drivers [aquí](https://download.nvidia.com/XFree86/Linux-x86_64/)
+
+
 Cuando nos muestre el resultado, copiamos el numero y los sustituimos por “/latest.txt”
 
 Por ejemplo así: 
