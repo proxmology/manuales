@@ -168,7 +168,7 @@ cd nvidia-persistenced/init
 ./install.sh
 ```
 ```
-rebbot
+reboot
 ```
 
 Comprobamos que el controlador este instalado y el servicio este ejecutándose:
