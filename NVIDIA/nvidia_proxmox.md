@@ -269,6 +269,9 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 <br>
 
 Cuando termine de instalarse el driver como último paso instalamos nvidia container runtime:
+
+<br>
+
 1- para LXC basados en debian:
 ```
 apt-get install nvidia-container-runtime
