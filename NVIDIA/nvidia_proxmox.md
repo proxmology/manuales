@@ -272,17 +272,19 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 
 Una vez terminada la instalación comprobamos que todo este correcto
 
-```
-ls -l /dev/nv*
-```
-
-![This is an image](nvidia-10.png)
 
 ```
 nvidia-smi
 ```
 
 ![This is an image](nvidia-9.png)
+
+```
+ls -l /dev/nv*
+```
+
+![This is an image](nvidia-10.png)
+
 
 
 ## Comprobamos que Plex use la grafica.
