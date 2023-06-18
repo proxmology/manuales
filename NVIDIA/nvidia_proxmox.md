@@ -163,6 +163,7 @@ Guardamos: ctrl + x
 
 Ahora instalamos NVIDIA driver persistence:
 ```
+cd /opt/nvidia
 git clone https://github.com/NVIDIA/nvidia-persistenced.git
 cd nvidia-persistenced/init
 ./install.sh
