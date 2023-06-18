@@ -163,13 +163,12 @@ Guardamos: ctrl + x
 
 Ahora instalamos NVIDIA driver persistence:
 ```
-Install GitHub - NVIDIA/nvidia-persistenced: NVIDIA driver persistence daemon
 git clone https://github.com/NVIDIA/nvidia-persistenced.git
 cd nvidia-persistenced/init
 ./install.sh
 ```
 ```
-rebbot
+reboot
 ```
 
 Comprobamos que el controlador este instalado y el servicio este ejecutándose:
@@ -223,7 +222,7 @@ y pegamos esto dentro del archivo de configuración del LXC, que corresponde a l
 
 ```
 lxc.cgroup2.devices.allow: c 195:* rwm
-lxc.cgroup2.devices.allow: c 509* rwm
+lxc.cgroup2.devices.allow: c 509:* rwm
 lxc.cgroup2.devices.allow: c 10:* rwm
 lxc.cgroup2.devices.allow: c 238:* rwm
 lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
@@ -269,6 +268,7 @@ Cuando aparezca esta pantalla seleccionamos todo por defecto, cada vez que nos p
 
 <br>
 
+
 Una vez terminada la instalación comprobamos que todo este correcto
 
 ```
@@ -301,6 +301,7 @@ Como podemos observar el contenedor LXC de Plex hace uso de la grafica de Nvidia
 <br>
 
 Si queremos que cualquier LXC haga uso de nuestra grafica simplemente es seguir los mismos pasos. 
+
 
 Enjoy!!
 
