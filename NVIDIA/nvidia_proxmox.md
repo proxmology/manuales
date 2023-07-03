@@ -140,7 +140,7 @@ ctrl + x.
 
 Actualizamos initramfs:
 ```
-update-initramfs -u
+update-initramfs -u -k all
 ```
 A continuación creamos reglas para cargar los controladores en el arranque para nvidia y nvidia_uvm:
 ```
