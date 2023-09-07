@@ -324,7 +324,7 @@ Si queremos que cualquier LXC haga uso de nuestra grafica simplemente es seguir 
 
 ## -
 
-* Si queremos usar la grafica nvida en Docker, necesitanos como extra instalar: nvidia-docker2
+Si queremos usar la grafica nvida en Docker, necesitanos como extra instalar: nvidia-docker2
 
 Dentro del LCX donde tengamos Docker:
 ```
