@@ -322,7 +322,7 @@ Como podemos observar el contenedor LXC de Plex hace uso de la grafica de Nvidia
 
 Si queremos que cualquier LXC haga uso de nuestra grafica simplemente es seguir los mismos pasos. 
 
-##
+## -
 
 Si queremos usar la grafica nvida en Docker, necesitanos como extra instalar: nvidia-docker2
 
