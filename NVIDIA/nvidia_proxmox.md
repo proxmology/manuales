@@ -38,6 +38,7 @@ reboot
 ```
 nano /etc/apt/sources.list
 ```
+##
 
 ## Proxmox 7
 ```
@@ -47,7 +48,6 @@ deb http://security.debian.org/debian-security bullseye-security main contrib
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 ```
 ##
-
 
 ## Proxmox 8
 ```
@@ -59,6 +59,7 @@ deb http://deb.debian.org/debian bookworm-updates main contrib non-free-firmware
 # security updates
 deb http://security.debian.org/debian-security bookworm-security main contrib non-free-firmware
 ```
+##
 
 Actualizamos los paquetes y promox
 
