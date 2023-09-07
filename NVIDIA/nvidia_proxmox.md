@@ -1,4 +1,4 @@
-# Instalar drivers de tarjeta grafica Nvidia en Promox
+# Instalar drivers de tarjeta grafica Nvidia en Promox (Actualización PVE 8)
 Antes de empezar quiero agradecer al compañero @juanlu13 por proporcionarme la [fuente original](https://forums.plex.tv/t/plex-hw-acceleration-in-lxc-container-anyone-with-success/219289/34?utm_source=pocket_mylist) de la cual se basa este manual. 
 #
 Este manual vamos a instalar los drivers de Nvidia, el servicio persistente y un parche opcional para eliminar las sesiones de codificación máxima.
@@ -38,12 +38,29 @@ reboot
 ```
 nano /etc/apt/sources.list
 ```
+##
+
+## Proxmox 7
 ```
 deb http://ftp.debian.org/debian bullseye main contrib
 deb http://ftp.debian.org/debian bullseye-updates main contrib
 deb http://security.debian.org/debian-security bullseye-security main contrib
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 ```
+##
+
+## Proxmox 8
+```
+deb http://ftp.debian.org/debian bookworm main contrib
+deb http://ftp.debian.org/debian bookworm-updates main contrib
+deb http://security.debian.org/debian-security bookworm-security main contrib
+deb http://deb.debian.org/debian bookworm main contrib non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free-firmware
+# security updates
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free-firmware
+```
+##
+
 Actualizamos los paquetes y promox
 
 ```
