@@ -330,6 +330,12 @@ Dentro del LCX donde tengamos Docker:
 ```
 wget https://raw.githubusercontent.com/MacRimi/manuales/main/NVIDIA/nvidia-docker.sh
 ```
+```
+chmod nvidia-docker.sh
+```
+```
+./nvidia-docker.sh
+```
 
 Enjoy!!
 
