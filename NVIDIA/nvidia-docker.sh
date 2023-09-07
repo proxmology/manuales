@@ -1,5 +1,4 @@
 #!/bin/bash
-# thanks @88plug
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | \
   apt-key add -
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
