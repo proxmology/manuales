@@ -10,7 +10,6 @@ Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles 
   
 <br>
 <br>
-
 1- Instalamos samba:
 ```
 apt-get install samba -y
