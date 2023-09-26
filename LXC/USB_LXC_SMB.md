@@ -23,9 +23,8 @@ confirmamos el servicio:
 systemctl status smbd.service
 ```
 
-creamos un nuevo usuario:
+creamos un nuevo usuario con el nombre que queramos.
 
-creamos el nombre que queramos.
 ```
 adduser proxmology
 ```
@@ -33,10 +32,12 @@ adduser proxmology
 añadimos una contraseña para el usuario proxmology y confirmamos todo.
 
 
-Ahora vamos añador el nuevo usuario a samba
 
+Ahora vamos añador el nuevo usuario a samba:
+
+```
 smbpasswd -a proxmology
-
+```
 
 establecemos los permisos del usuario proxmology a la ruta donde motaremos el disco y lo compartiremos.
 
