@@ -1,4 +1,4 @@
-Como añadir un disco duro USB a un LXC para usarlo y compartirlo por red.
+# Como añadir un disco duro USB a un LXC para usarlo y compartirlo por red.
 
 En alguna ocasión, nos puede ser útil añadir un disco duro USB de los tradicionales con carcasa a nuestro proxmox, sobre todo si lo que tenemos es un mini pc que no tiene posibilidad de expansión.
 
