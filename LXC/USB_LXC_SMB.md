@@ -29,13 +29,13 @@ systemctl status smbd.service
 adduser proxmology
 ```
 
-Ahora vamos añador el nuevo usuario a samba:
+* Ahora vamos añador el nuevo usuario a samba:
 
 ```
 smbpasswd -a proxmology
 ```
 
-establecemos los permisos del usuario proxmology a la ruta donde motaremos el disco y lo compartiremos.
+* establecemos los permisos del usuario proxmology a la ruta donde motaremos el disco y lo compartiremos.
 ```
 apt-get install acl
 ```
@@ -43,13 +43,13 @@ apt-get install acl
 setfacl -R -m "u:proxmology:rwx" /mnt/lxc_USB
 ```
 
-editamos el archivo smb.conf para compartir el directorio del disco.
+* editamos el archivo smb.conf para compartir el directorio del disco.
 
 ```
 nano /etc/samba/smb.conf
 ```
 
-al final del archivo añadimos 
+* al final del archivo añadimos 
 ```
 [lxc_usb]
     comment = carpeta compartida
