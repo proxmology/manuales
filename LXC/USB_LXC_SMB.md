@@ -84,7 +84,7 @@ Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes de conectar el disco USB.
 
-Antes de añadir nuestro disco
+ - Antes de añadir nuestro disco
 
 <br>
 
@@ -92,7 +92,7 @@ Antes de añadir nuestro disco
 
 <br>
 
-Después de añadir nuestro disco USB
+ - Después de añadir nuestro disco USB
 
 <br>
 
