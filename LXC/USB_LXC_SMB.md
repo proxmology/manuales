@@ -60,15 +60,21 @@ nano /etc/samba/smb.conf
     guest ok = no
     valid users = @proxmology
 ```
+<br>
 
 Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
+<br>
+
 ![This is an image](lxc_1.png)
 
+<br>
 
 ![This is an image](lxc_2.png)
 
-Añadir disco USB a nuestro LXC
+
+
+## Añadir disco USB a nuestro LXC
 
 
 
