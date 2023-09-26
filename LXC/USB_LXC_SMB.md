@@ -102,7 +102,7 @@ Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes
 
 2-	Para que podamos usarlo tenemos que formatearlo en ext4
 
-Una vez identificado, lo formateamos para que así podamos usar sin problemas nuestro disco y podamos tanto leer como escribir en el:
+Una vez identificado, lo formateamos para que así podamos usar sin problemas nuestro disco y podamos tanto leer como escribir en el. Lo hacemos desde la consola de proxmox.
 ```
 mkfs.ext4 /dev/sdb1
 ```
