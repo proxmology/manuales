@@ -8,15 +8,15 @@ Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles 
 - Instalaremos Samba.
 - Añadiremos el disco USB y lo compartiremos
 
-1.	Instalamos samba:
-
+1- Instalamos samba:
+```
 apt-get install samba -y
-
+```
 
 confirmamos el servicio:
-
+```
 systemctl status smbd.service
-
+```
 
 creamos un nuevo usuario:
 
