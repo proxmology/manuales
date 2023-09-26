@@ -7,7 +7,8 @@ Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles 
 
 - Instalaremos Samba.
 - Añadiremos el disco USB y lo compartiremos
-
+<br>
+<br>
 1- Instalamos samba:
 ```
 apt-get install samba -y
