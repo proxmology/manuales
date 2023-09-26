@@ -114,7 +114,10 @@ Podemos nombrar el directorio como queramos.
 mkdir /mnt/lxc_USB
 ```
 
-4-	Creamos un punto de montaje en nuestro LXC para añadirle el disco USB
+4-	Creamos un punto de montaje en nuestro LXC para añadirle el disco USB. Para ello nos dirigimos a la consola de proxmox (no en la del  LXC), cambiamos el id por el que corresponda.
+```
+nano /etc/pve/lxc/100.conf
+```
 ```
 mp0: /dev/sdb1,mp=/mnt/lxc_USB,backup=0
 ```
