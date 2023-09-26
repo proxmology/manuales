@@ -26,8 +26,9 @@ systemctl status smbd.service
 creamos un nuevo usuario:
 
 creamos el nombre que queramos.
-
+```
 adduser proxmology
+```
 
 añadimos una contraseña para el usuario proxmology y confirmamos todo.
 
