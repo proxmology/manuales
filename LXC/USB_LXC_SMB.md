@@ -72,7 +72,7 @@ Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 ![This is an image](lxc_2.png)
 
-
+##
 
 ## Añadir disco USB a nuestro LXC
 
