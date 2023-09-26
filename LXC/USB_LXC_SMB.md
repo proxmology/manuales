@@ -17,13 +17,13 @@ Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles 
 apt-get install samba -y
 ```
 
-confirmamos el servicio:
+* Confirmamos el servicio:
 
 ```
 systemctl status smbd.service
 ```
 
-creamos un nuevo usuario con el nombre que queramos, añadimos una contraseña para el usuario y confirmamos todo.
+* Creamos un nuevo usuario con el nombre que queramos, añadimos una contraseña para el usuario y confirmamos todo.
 
 ```
 adduser proxmology
