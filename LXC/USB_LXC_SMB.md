@@ -23,15 +23,11 @@ confirmamos el servicio:
 systemctl status smbd.service
 ```
 
-creamos un nuevo usuario con el nombre que queramos.
+creamos un nuevo usuario con el nombre que queramos, añadimos una contraseña para el usuario y confirmamos todo.
 
 ```
 adduser proxmology
 ```
-
-añadimos una contraseña para el usuario proxmology y confirmamos todo.
-
-
 
 Ahora vamos añador el nuevo usuario a samba:
 
@@ -40,18 +36,21 @@ smbpasswd -a proxmology
 ```
 
 establecemos los permisos del usuario proxmology a la ruta donde motaremos el disco y lo compartiremos.
-
+```
 apt-get install acl
-
+```
+```
 setfacl -R -m "u:proxmology:rwx" /mnt/lxc_USB
-
+```
 
 editamos el archivo smb.conf para compartir el directorio del disco.
 
+```
 nano /etc/samba/smb.conf
+```
 
 al final del archivo añadimos 
-
+```
 [lxc_usb]
     comment = carpeta compartida
     path = /mnt/lxc_USB
@@ -60,7 +59,7 @@ al final del archivo añadimos
     browseable = yes
     guest ok = no
     valid users = @proxmology
-
+```
 
 Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
