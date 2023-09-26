@@ -131,4 +131,9 @@ chmod -R 777 /mnt/lxc_USB
 
 ahora ya Podemos usar nuestros disco duro usarlo dentro del contenedor y ademas compartir el su contenido
 
+<br>
+
+![This is an image](lxc_5.png)
+
+<br>
 
