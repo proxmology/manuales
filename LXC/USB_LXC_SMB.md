@@ -5,8 +5,8 @@ En esta ocasión vamos a ver como añadir un disco duro USB a un LXC en el que u
 Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles en red, para usarlo con nuestro servidor multimedia, para usarlo para alojar documentos que se auto escanean con paperless… ect.
 
 
-
-
+- Instalaremos Samba.
+- Añadiremos el disco USB y lo compartiremos
 
 1.	Instalamos samba:
 
