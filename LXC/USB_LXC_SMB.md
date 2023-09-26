@@ -11,7 +11,7 @@ Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles 
 <br>
 <br>
 
-1- Instalamos samba:
+1- Instalamos samba dentro del LXC:
 
 ```
 apt-get install samba -y
