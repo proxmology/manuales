@@ -129,7 +129,7 @@ Nos logueamos y le damos permisos al directorio de montaje
 chmod -R 777 /mnt/lxc_USB
 ```
 
-ahora ya Podemos usar nuestros disco duro usarlo dentro del contenedor y ademas compartir el su contenido
+ahora ya Podemos usar nuestros disco duro, usarlo dentro del contenedor y ademas compartir su contenido
 
 <br>
 
