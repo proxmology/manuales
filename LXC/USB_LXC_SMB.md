@@ -62,6 +62,8 @@ nano /etc/samba/smb.conf
 ```
 <br>
 
+##
+
 Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 <br>
@@ -80,9 +82,23 @@ Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 1.	Identificamos el disco USB.
 
-Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes de conectar el disco USB
+Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes de conectar el disco USB.
 
+Antes de añadir nuestro disco
 
+<br>
+
+![This is an image](lxc_3.png)
+
+<br>
+
+Después de añadir nuestro disco USB
+
+<br>
+
+![This is an image](lxc_3.png)
+
+<br>
 
 2.	Para que podamos usarlo tenemos que formatearlo en ext4
 
