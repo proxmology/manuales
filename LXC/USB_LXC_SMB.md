@@ -80,7 +80,7 @@ Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 
 
-1.	Identificamos el disco USB.
+1-	Identificamos el disco USB.
 
 Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes de conectar el disco USB.
 
@@ -96,33 +96,35 @@ Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes
 
 <br>
 
-![This is an image](lxc_3.png)
+![This is an image](lxc_4.png)
 
 <br>
 
-2.	Para que podamos usarlo tenemos que formatearlo en ext4
+2-	Para que podamos usarlo tenemos que formatearlo en ext4
 
-Una vez identificado, lo formateamos para que así podamos usar sin problemas nuestro disco y podamos tanto leer como escribir en el. 
-
+Una vez identificado, lo formateamos para que así podamos usar sin problemas nuestro disco y podamos tanto leer como escribir en el:
+```
 mkfs.ext4 /dev/sdb1
+```
 
-
-3.	Creamos el directorio de montaje en el LXC que queramos usar.
+3-	Creamos el directorio de montaje en el LXC que queramos usar.
 
 Podemos nombrar el directorio como queramos.
-
+```
 mkdir /mnt/lxc_USB
+```
 
-4.	Creamos un punto de montaje en nuestro LXC para añadirle el disco USB
-
+4-	Creamos un punto de montaje en nuestro LXC para añadirle el disco USB
+```
 mp0: /dev/sdb1,mp=/mnt/lxc_USB,backup=0
+```
 
-5.	Arrancamos el LCX 
+5-	Arrancamos el LCX
+   
 Nos logueamos y le damos permisos al directorio de montaje
-
-
+```
 chmod -R 777 /mnt/lxc_USB
-
+```
 
 ahora ya Podemos usar nuestros disco duro usarlo dentro del contenedor y ademas compartir el su contenido
 
