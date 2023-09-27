@@ -83,9 +83,9 @@ Ya temenos instalado nuestro servidor smb, Podemos comprobar que accedemos a el.
 
 
 
-1-	Identificamos el disco USB.
+1-	Identificamos el disco o memoria USB.
 
-Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes de conectar el disco USB.
+Para ello es tan sencillo y fijarnos en la seccion de discos que tenemos en nuestros servidor antes de conectar el disco USB.
 
  - Antes de añadir nuestro disco
 
@@ -103,7 +103,7 @@ Para ello es tan sencillo y fijarnos que discos tenemos en nuestros servir antes
 
 <br>
 
-2-	Para que podamos usarlo tenemos que formatearlo en ext4
+2-	Para que podamos usarlo tenemos que formatearlo en un formato de archivos compatible, por ejemplo ext4 en caso de un disco duro.
 
 Una vez identificado, lo formateamos para que así podamos usar sin problemas nuestro disco y podamos tanto leer como escribir en el. Lo hacemos desde la consola de proxmox.
 ```
