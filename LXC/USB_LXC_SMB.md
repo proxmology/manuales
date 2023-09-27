@@ -3,7 +3,7 @@
 En alguna ocasión, nos puede ser útil añadir un disco duro, o una memoria USB a nuestro proxmox, sobre todo si lo que tenemos es un mini pc que no tiene posibilidad de expansión.
 
 Vamos a ver como añadir un disco duro USB a un LXC en el que usaremos y además compartiremos el contenido mediante samba. 
-### Para que podamos añadir el disco el LXC tiene que ser con privilegios.
+#### Para que podamos añadir el disco el LXC tiene que ser con privilegios.
 
 Los usos pueden ser varios, para alojar archivos Torrent y tenerlos disponibles en red, para usarlo con nuestro servidor multimedia, para usarlo para alojar documentos que se auto escanean con paperless… ect.
 
